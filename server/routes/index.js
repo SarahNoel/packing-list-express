@@ -7,15 +7,15 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Do I have Everything?' });
 });
 
-router.post('/submit-trip', function(req, res, next){
-  console.log('test');
-  res.redirect('/pack');
-})
+// router.post('/submit-trip', function(req, res, next){
+//   console.log('test');
+//   res.redirect('/pack');
+// })
 
 
 
-router.get('/pack', function(req, res, next) {
-  res.render('pack', { title: 'Do I have Everything?' });
-});
+// router.get('/pack', function(req, res, next) {
+//   res.render('pack', { title: 'Do I have Everything?' });
+// });
 
 module.exports = router;
