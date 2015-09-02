@@ -1,0 +1,288 @@
+body, html{
+  font-family: 'Dosis', sans-serif;
+  font-size: 18px;
+  height: 100%;
+  padding-bottom: 50px;
+  font-weight: bold;
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/07/e7/28/07e7280609f352fe8cf8c1b908621087.jpg");
+  background-size: cover;
+ }
+
+ul{
+  list-style: none;
+}
+
+input{
+  border-radius: 10px;
+}
+
+p{
+  font-size: 18px;
+  font-weight: lighter;
+  text-align: center
+}
+
+h1{
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+h4{
+  font-weight: bold;
+}
+
+li{
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+table{
+  text-align: center
+}
+
+.header{
+  border:5px solid #BA9092;
+  background-color: #F5F2EE;
+  text-align: center;
+}
+
+.bigger{
+  font-family: 'Amatic SC', cursive;
+  font-size: 36px;
+}
+
+.weather-box{
+  width: 150px;
+}
+
+.bring{
+  font-family: 'Amatic SC', cursive;
+  background-color: #FAE0AF;
+  width: 283px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+.bring-button{
+  font-family: 'Amatic SC', cursive;
+  background-color: #FAE0AF;
+  width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.button-options{
+  padding: 10px;
+  display: inline-flex;
+  margin: auto;
+}
+
+.packing-div{
+  clear: left;
+  margin: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  padding-right: 50px;
+  display: table;
+}
+
+.pack-wrapper{
+  width: 100%
+}
+
+.container{
+  float: left;
+}
+
+.square{
+  height: 125px;
+  width: 125px;
+  background-size: cover;
+}
+
+.weather1{
+  float: left;
+  background-image: url('sun.gif')
+}
+
+.weather2{
+  background-image: url("clouds.jpg");
+  float: right;
+}
+
+.sml{
+  background-color: #90bab8;
+  border-radius: 10px;
+  max-width: 1050px;
+  margin: auto;
+  margin-bottom: 10px
+
+}
+
+.wrapper{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+  width: 600px;
+}
+.answer-div{
+  border-radius: 30px;
+  max-height: 350px;
+  height: 100%;
+  background-image: url("http://1942design.com/graphics/paper.jpg");
+  background-size: cover;
+  max-width: 800px;
+  margin: auto;
+}
+
+.trip-form{
+  vertical-align: top;
+  float: left;
+  width: 305px;
+  height: 100%;
+}
+
+.trip-activity-form{
+  vertical-align: top;
+  margin-left: 305px;
+  text-align: center;
+}
+
+.container{
+  float:left;
+  height: 100%;
+  width: 100%;
+}
+
+.tiny{
+  font-size: 12px;
+}
+
+.row{
+  padding-left: 10px;
+  float: left;
+  width: 100%;
+}
+
+.center{
+  text-align: center;
+  font-weight: bold;
+}
+
+.fb-button{
+  margin-right: -100px;
+}
+
+.bolder{
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.lighter{
+  font-weight: lighter;
+}
+
+
+.parchment{
+  background-image: url("http://www.zingerbugimages.com/backgrounds/beige_parchment_paper_background_1800x1600.jpg");
+}
+
+.pic-div{
+  padding: 30px;
+  border-radius: 10px;
+  float: left;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+}
+
+.trip-deets{
+  padding: 1px;
+  padding-left: 10px
+}
+
+.shadow{
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.weather-info{
+  padding-left: 10px;
+  padding-bottom: 15px;
+  min-height: 230px;
+}
+
+.delete-click{
+  margin-left: 10px;
+  vertical-align: text-top;
+}
+
+.submit{
+  font-size: 16px;
+  background-color: white
+}
+
+.invis{
+  display: none;
+}
+
+.quantity-btn{
+  text-align: center;
+  width: 37px;
+  border-radius: 10px;
+}
+
+.clear-input{
+  background-color: #E8E0D5;
+}
+
+.checked{
+  text-decoration: line-through;
+  font-style: oblique;
+}
+
+.packing-list{
+  float: left;
+}
+
+.quantity-form{
+  width: 40px;
+  text-align: center;
+}
+
+.print-btn{
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #FAE0AF;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.footer{
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  background-color: #FAE0AF;
+  border-top: 3px black solid;
+  border-bottom: 3px black solid;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  clear: both;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
