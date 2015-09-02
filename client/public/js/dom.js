@@ -30,7 +30,7 @@ $(document).on('ready', function() {
       $('.hide-later').fadeOut();
 
       // create search URL for getting weather
-      var searchUrl = "//api.openweathermap.org/data/2.5/forecast/daily?q=" + destination + "&units=imperial&cnt=16&APPID=30dc5c7ce321f6b73a438b169eb9df48";
+      var searchUrl = "http//api.openweathermap.org/data/2.5/forecast/daily?q=" + destination + "&units=imperial&cnt=16&APPID=30dc5c7ce321f6b73a438b169eb9df48";
 
       // ajax request
       $.ajax({
