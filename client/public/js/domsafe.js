@@ -392,6 +392,7 @@ function Popup(data) {
   mywindow.document.write('</head><body >');
   mywindow.document.write(data);
   mywindow.document.write('</body></html>');
+
 }
 
 
